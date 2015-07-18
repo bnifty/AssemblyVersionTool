@@ -88,6 +88,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmdCalculate);
             this.Controls.Add(this.txtAssemblyVersion);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MainForm";
             this.Text = "Assembly version tool";
             this.ResumeLayout(false);
